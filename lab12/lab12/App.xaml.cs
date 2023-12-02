@@ -1,4 +1,5 @@
-﻿using System;
+﻿using lab12.View;
+using System;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -10,7 +11,7 @@ namespace lab12
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            MainPage = new TaskView();
         }
 
         protected override void OnStart()
